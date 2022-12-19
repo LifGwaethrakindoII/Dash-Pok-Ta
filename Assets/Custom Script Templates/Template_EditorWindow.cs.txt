@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+
+public class #SCRIPTNAME# : EditorWindow
+{
+	protected const string #UPPERCASE_SCRIPTNAME#_PATH = "Please/Replace/This Path"; 	/// <summary>#SCRIPTNAME#'s path.</summary>
+
+	public static #SCRIPTNAME# #TARGETVARIABLE#; 										/// <summary>#SCRIPTNAME#'s static reference</summary>
+
+	/// <summary>Creates a new #SCRIPTNAME# window.</summary>
+	/// <returns>Created #SCRIPTNAME# window.</summary>
+	[MenuItem(#UPPERCASE_SCRIPTNAME#_PATH)]
+	public static #SCRIPTNAME# Create#SCRIPTNAME#()
+	{
+		/// Your stuff here:
+		return #TARGETVARIABLE#;
+	}
+}

@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: bbc2b34f9adb5b94ea54b5636aa233fc
+timeCreated: 1501172439
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle.L
+    100002: ankle.R
+    100004: arm.L
+    100006: arm.R
+    100008: Armature
+    100010: femur.L
+    100012: femur.R
+    100014: foot.L
+    100016: foot.L_end
+    100018: foot.R
+    100020: foot.R_end
+    100022: forearm.L
+    100024: forearm.R
+    100026: head
+    100028: head_end
+    100030: //RootNode
+    100032: Kroek
+    100034: lowerBack
+    100036: neck
+    100038: upperBack
+    100040: wrist.L
+    100042: wrist.L_end
+    100044: wrist.R
+    100046: wrist.R_end
+    100048: Kroek_Armature
+    400000: ankle.L
+    400002: ankle.R
+    400004: arm.L
+    400006: arm.R
+    400008: Armature
+    400010: femur.L
+    400012: femur.R
+    400014: foot.L
+    400016: foot.L_end
+    400018: foot.R
+    400020: foot.R_end
+    400022: forearm.L
+    400024: forearm.R
+    400026: head
+    400028: head_end
+    400030: //RootNode
+    400032: Kroek
+    400034: lowerBack
+    400036: neck
+    400038: upperBack
+    400040: wrist.L
+    400042: wrist.L_end
+    400044: wrist.R
+    400046: wrist.R_end
+    400048: Kroek_Armature
+    4300000: Kroek
+    7400000: Armature|Kroek_Dash_Left
+    7400002: Armature|Kroek_Dash_Right
+    7400004: Armature|Kroek_Default_Take
+    7400006: Armature|Kroek_Hit
+    7400008: Armature|Kroek_Idle
+    7400010: Armature|Kroek_Jump
+    7400012: Armature|Kroek_Recover
+    7400014: Armature|Kroek_Run
+    7400016: Armature|Kroek_Special_Move
+    7400018: Armature|Kroek_Walk
+    7400020: Kroek_Armature|Kroek_Dash_Left
+    7400022: Kroek_Armature|Kroek_Dash_Right
+    7400024: Kroek_Armature|Kroek_Default_Take
+    7400026: Kroek_Armature|Kroek_Hit
+    7400028: Kroek_Armature|Kroek_Idle
+    7400030: Kroek_Armature|Kroek_Jump
+    7400032: Kroek_Armature|Kroek_Recover
+    7400034: Kroek_Armature|Kroek_Run
+    7400036: Kroek_Armature|Kroek_Special_Move
+    7400038: Kroek_Armature|Kroek_Walk
+    9500000: //RootNode
+    13700000: Kroek
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Dash_Left
+      takeName: Kroek_Armature|Kroek_Dash_Left
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Dash_Right
+      takeName: Kroek_Armature|Kroek_Dash_Right
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Default_Take
+      takeName: Kroek_Armature|Kroek_Default_Take
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Hit
+      takeName: Kroek_Armature|Kroek_Hit
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Idle
+      takeName: Kroek_Armature|Kroek_Idle
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Jump
+      takeName: Kroek_Armature|Kroek_Jump
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Recover
+      takeName: Kroek_Armature|Kroek_Recover
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Run
+      takeName: Kroek_Armature|Kroek_Run
+      firstFrame: 1
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Special_Move
+      takeName: Kroek_Armature|Kroek_Special_Move
+      firstFrame: 1
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kroek_Armature|Kroek_Walk
+      takeName: Kroek_Armature|Kroek_Walk
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kroek
+        weight: 1
+      - path: Kroek_Armature
+        weight: 1
+      - path: Kroek_Armature/lowerBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.L/ankle.L/foot.L/foot.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/femur.R/ankle.R/foot.R/foot.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.L/forearm.L/wrist.L/wrist.L_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/arm.R/forearm.R/wrist.R/wrist.R_end
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head
+        weight: 1
+      - path: Kroek_Armature/lowerBack/upperBack/neck/head/head_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Kroek
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

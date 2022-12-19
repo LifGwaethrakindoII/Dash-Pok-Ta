@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DashPokta- Music
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300001}
+  m_Snapshots:
+  - {fileID: 24500003}
+  m_StartSnapshot: {fileID: 24500003}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters:
+  - guid: 5db4ca6760e674c4cb658c714f1843ea
+    name: poljuego
+  m_AudioMixerGroupViews:
+  - guids:
+    - d984ae9427cf7a642a29e8720847559e
+    - 85e24258960a6aa4198b78591dfef2e3
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500003}
+--- !u!243 &24300001
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: d984ae9427cf7a642a29e8720847559e
+  m_Children:
+  - {fileID: 243000011870453006}
+  m_Volume: 8f35491ee10ff3b43926a7e91c3fec5b
+  m_Pitch: a37c3eb8a474cd4449983c64ea9ab5e3
+  m_Effects:
+  - {fileID: 24400002}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400002
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 6419778943aa3174aad6df153ea0160e
+  m_EffectName: Attenuation
+  m_MixLevel: d1930c4c58ec7954f98d89e109d18a57
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500003
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 8b2ca6156f0e69d4980179d38fbfd20a
+  m_FloatValues:
+    5db4ca6760e674c4cb658c714f1843ea: -20
+  m_TransitionOverrides: {}
+--- !u!243 &243000011870453006
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: "M\xFAsica"
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 85e24258960a6aa4198b78591dfef2e3
+  m_Children: []
+  m_Volume: 5db4ca6760e674c4cb658c714f1843ea
+  m_Pitch: 6da32856d81c1da4da52233fae860d98
+  m_Effects:
+  - {fileID: 244000012041288066}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &244000012041288066
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 43c02ff928a9fd4449dfffe44169d9c1
+  m_EffectName: Attenuation
+  m_MixLevel: 16a5bd0a74d7f0e48b354a1282f12f3e
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
