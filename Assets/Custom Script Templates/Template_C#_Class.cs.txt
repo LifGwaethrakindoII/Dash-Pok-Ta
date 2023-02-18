@@ -16,12 +16,4 @@ public class #SCRIPTNAME#
 	{
 		#NOTRIM#
 	}
-
-#region PublicMethods:
-	#NOTRIM#
-#endregion
-
-#region PrivateMethods:
-	#NOTRIM#
-#endregion
 }

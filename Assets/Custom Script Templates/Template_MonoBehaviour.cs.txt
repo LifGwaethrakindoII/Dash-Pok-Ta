@@ -6,30 +6,22 @@ using UnityEngine;
 public class #SCRIPTNAME# : MonoBehaviour
 {
 #region UnityMethods:
-	/// <summary>#SCRIPTNAME#'s' instance initialization.</summary>
-	void Awake()
+	/// <summary>#SCRIPTNAME#'s instance initialization.</summary>
+	private void Awake()
 	{
 		#NOTRIM#
 	}
 
 	/// <summary>#SCRIPTNAME#'s starting actions before 1st Update frame.</summary>
-	void Start ()
+	private void Start ()
 	{
 		#NOTRIM#
 	}
 	
 	/// <summary>#SCRIPTNAME#'s tick at each frame.</summary>
-	void Update ()
+	private void Update ()
 	{
 		#NOTRIM#
 	}
-#endregion
-
-#region PublicMethods:
-	#NOTRIM#
-#endregion
-
-#region PrivateMethods:
-	#NOTRIM#
 #endregion
 }

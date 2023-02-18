@@ -6,19 +6,18 @@ using UnityEditor;
 [CustomEditor(typeof(#TARGETNAME#))]
 public class #SCRIPTNAME# : Editor
 {
-	private #TARGETNAME# #TARGETVARIABLE#;
+	private #TARGETNAME# #TARGETVARIABLE#; 	/// <summary>Inspector's Target.</summary>
 
 	/// <summary>Sets target property.</summary>
-	void OnEnable()
+	private void OnEnable()
 	{
 		#TARGETVARIABLE# = target as #TARGETNAME#;
 	}
 
 	/// <summary>OnInspectorGUI override.</summary>
 	public override void OnInspectorGUI()
-	{
-		/// Do your stuff here:
-		#NOTRIM#
+	{	
 		DrawDefaultInspector();
+		#NOTRIM#
 	}
 }

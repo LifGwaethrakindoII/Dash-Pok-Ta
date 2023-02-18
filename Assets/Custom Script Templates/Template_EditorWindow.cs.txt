@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class #SCRIPTNAME# : EditorWindow
 {
-	protected const string #UPPERCASE_SCRIPTNAME#_PATH = "Please/Replace/This Path"; 	/// <summary>#SCRIPTNAME#'s path.</summary>
+	protected const string #UPPERCASE_SCRIPTNAME#_PATH = "PLEASE/REPLACE/THIS #SCRIPTNAME#'s PATH"; 	/// <summary>#SCRIPTNAME#'s path.</summary>
 
 	public static #SCRIPTNAME# #TARGETVARIABLE#; 										/// <summary>#SCRIPTNAME#'s static reference</summary>
 
@@ -14,7 +14,14 @@ public class #SCRIPTNAME# : EditorWindow
 	[MenuItem(#UPPERCASE_SCRIPTNAME#_PATH)]
 	public static #SCRIPTNAME# Create#SCRIPTNAME#()
 	{
-		/// Your stuff here:
+		#TARGETVARIABLE#; = GetWindow<#SCRIPTNAME#>("INSERT_NAME");
+		#NOTRIM#
 		return #TARGETVARIABLE#;
+	}
+
+	/// <summary>Use OnGUI to draw all the controls of your window.</summary>
+	private void OnGUI()
+	{
+		#NOTRIM#
 	}
 }

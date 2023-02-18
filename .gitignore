@@ -42,3 +42,9 @@ ehthumbs.db
 *.sln
 *.unityproj
 *.csproj
+
+# ============ #
+# Sublime Text #
+# ============ #
+*.sublime-project
+*.sublime-workspace

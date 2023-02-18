@@ -5,13 +5,5 @@ using UnityEngine;
 
 public struct #SCRIPTNAME#
 {
-
-#region Properties:
 	#NOTRIM#
-#endregion
-
-#region Methods:
-	#NOTRIM#
-#endregion
-
 }
